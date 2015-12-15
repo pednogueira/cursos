@@ -1,13 +1,4 @@
 <?php
-
-//Ternario --- if em uma linha
-//Se existir a variavel url na URL (GET) ele pega o valor dela senao e ""
-/* if(isset($_GET["url"]))
-  $url = $_GET["url"];
-  else
-  $url = ""; */
-
-
 $url = isset($_GET["url"]) ? $_GET["url"] : "index";
 
 $paginas = explode("/", $url);
