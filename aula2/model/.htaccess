@@ -1,0 +1,2 @@
+#Nao deixar ninguem acessar a pasta pela URL
+deny from all

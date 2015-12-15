@@ -1,0 +1,5 @@
+ErrorDocument 404 /aula2/error/404.html
+
+RewriteEngine On
+RewriteRule ^public/cadastrar.html$ /aula2/control/controlefuncionario.php [NC]
+

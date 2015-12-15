@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^inserir.php$ ../control/controlefuncionario.php [NC,L]
+RewriteRule ^buscar.php$ ../control/controlebuscar.php [NC,L]
+RewriteRule ^([a-zA-Z0-9/]*)$ index.php?url=$1 [NC,L]
