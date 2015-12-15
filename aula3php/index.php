@@ -11,4 +11,7 @@ if (isset($paginas[0]) && file_exists("public/" . $paginas[0] . ".php")) {
 }
 
 include_once $pagina;
+
+
+
 ?>
